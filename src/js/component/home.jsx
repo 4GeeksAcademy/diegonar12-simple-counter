@@ -21,7 +21,6 @@ const Home = () => {
         <div className="digit">{Math.floor(seconds / 1000) % 10}</div>
         <div className="digit">{Math.floor(seconds / 100) % 10}</div>
         <div className="digit">{Math.floor(seconds / 10) % 10}</div>
-        <div className="digit">{seconds % 10}</div>
       </div>
     </div>
   );
