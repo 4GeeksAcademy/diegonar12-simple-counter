@@ -1,12 +1,22 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  font-size: 2rem;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 8px;
+  width: fit-content;
+  margin: auto;
+}
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.digit {
+  width: 40px;
+  text-align: center;
+  margin: 0 5px;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 4px;
+}
